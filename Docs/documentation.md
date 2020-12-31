@@ -41,5 +41,6 @@ then enter a comment like shown below.
 **zainmfd** is my user name and **Documentation** is repository name.  
 After cloning you can see this window like shown below
 ![after cloning](img/after_cloning.png)
+zain
 
 
