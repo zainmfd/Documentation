@@ -1,18 +1,5 @@
-# Documentation
-Get started with Github and Mkdocs
 
-
-
-
-## Getting started  
-
-
-
-
-
-
-
- **Start repository**  
+ 
  Step 1 :-   
  To add a new repository, We can see a " + " on the right top of the main window of GitHub. Click on that and then click on **New repository**  
  ![add repo](img/add_repo.png)  
