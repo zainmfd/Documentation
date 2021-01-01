@@ -6,20 +6,11 @@ Get started with Github and Mkdocs
 
 ## Getting started  
 
-### [**Git**](https://git-scm.com/) 
- Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.  
- ![git download](img/git_download.png)
- [Git Download](https://git-scm.com/downloads) After click on the above link chose the suitable version and install git.  
 
-### [**VS-Code**](https://code.visualstudio.com/)  
- Visual Studio Code is a free source-code editor made by Microsoft for Windows, Linux, and macOS. Features include support for debugging, syntax highlighting, intelligent code completion, snippets, code refactoring, and embedded Git. Users can change the theme, keyboard shortcuts, preferences, and install extensions that add additional functionality.
- ![vs code download](img/vscode_download.png)
- [Visual Studio Code download](https://code.visualstudio.com/download) Choose suitable one.
 
-### [**GitHub**](https://github.com/)  
-GitHub, Inc. is a subsidiary of Microsoft which provides hosting for software development and version control using Git. It offers the distributed version control and source code management (SCM) functionality of Git, plus its features. It provides access control and several collaboration features such as bug tracking, feature requests, task management, continuous integration, and wikis for every project. Headquartered in California, it has been a subsidiary of Microsoft since 2018.
-GitHub offers its basic services free of charge. Its more advanced professional and enterprise services are commercial. Free GitHub accounts are commonly used to host open-source projects.  
-        Create a GitHub account and fill all the personal info.
+
+
+
 
  **Start repository**  
  Step 1 :-   
