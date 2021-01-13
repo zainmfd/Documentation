@@ -62,4 +62,32 @@ In my case I create a image (img) folder inside that *docs*, So it is easy to ad
 for example ```![file in docs](img/file_in_vsc.png) ```  
   
   Step 5:-  
-You can refer all the syntax for programmin by [clicking here](https://guides.github.com/features/mastering-markdown/)
+You can refer all the syntax for programming by [clicking here](https://guides.github.com/features/mastering-markdown/)  
+Then you want to publish your site,for that you can refer this[click here](https://squidfunk.github.io/mkdocs-material/publishing-your-site/)   
+
+Under **with GitHub Actions** there is a detailed explanation of setuping actions. For this repository I setup an action like below.  
+![set up action](img/setupac.png)  
+In this click on *Skip this and set up a workflow yourself*  
+```  yaml
+name: ci
+on:
+  push:
+    branches:
+      - master
+      - main
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+        with:
+          python-version: 3.x
+      - run: pip install mkdocs-material
+      - run: mkdocs gh-deploy --force 
+```
+Then save I by naming ```ci.yml```,now commit this by clicking on right side of the window.  
+Then go back to vscode and type ```git pull``` that will pull your changes that you make in github.  
+Now go to repository settings and change your github page like below and click save  
+![github pg](img/githubpg.png)  
+Wait for some time and then click on the above link. 
